@@ -1,0 +1,52 @@
+$curb: 3rem;
+
+.curbe-start {
+    -webkit-clip-path: polygon(0 $curb, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 $curb, 100% 0, 100% 100%, 0 100%);
+}
+
+
+.footer-shape{
+
+    &-wrapper{
+        @extend .position-relative;
+    }
+
+    &-1{
+        @extend .position-absolute, .top-50, .start-0, .translate-middle-y;
+        @include media-breakpoint-down(xl){
+            display: none;
+        }
+    }
+    &-2{
+        @extend .position-absolute, .top-50, .end-0, .translate-middle-y;
+        @include media-breakpoint-down(xl){
+            display: none;
+        }
+    }
+}
+
+.social-list {
+    @extend .d-flex,
+    .gap-3, .flex-wrap, .justify-content-center;
+
+    li a {
+        @extend .d-inline-flex,
+        .justify-content-center,
+        .align-items-center,
+        .rounded-circle,
+        .fs-lg;
+        background-color: var(--social-icon-bg, $white);
+        color: var(--social-icon-color, $black);
+        width: var(--icon-size, 48px);
+        height: var(--icon-size, 48px);
+        border: 2px solid var(--social-icon-border-color, transparent);
+        transition: 0.2s ease-in-out;
+
+        &:hover{
+            --social-icon-bg: #{$warning};
+            --social-icon-color: #{$white};
+            --social-icon-border-color: #{$warning};
+        }
+    }
+}

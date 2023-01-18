@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&family=Work+Sans:wght@300;400;500;600;700&display=swap');
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.marketplace-section-box,
+.cta-section-box{
+    @extend .bg-white;
+    background-position: var(--section-bg-position, left top);
+    background-size: cover;
+
+    @include media-breakpoint-up(lg){
+        --section-bg-position: top right;
+    }
+}

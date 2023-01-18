@@ -1,0 +1,31 @@
+// @import "abstracts/abstracts";
+
+
+
+// VARIABLES
+@import "./variables/colors";
+@import "./variables/sizes";
+@import "./variables/navbar";
+@import "./variables/reboot";
+@import "./variables/buttons";
+@import "./variables/form";
+
+
+@import "vendors/vendors";
+
+// BASE
+@import "./base/animations";
+@import "./base/reset";
+@import "./base/typography";
+@import "./base/utilities";
+
+@import "layouts/layouts";
+@import "./abstracts/root";
+@import "./base/typography";
+@import "./snippets/snippets";
+
+// PAGES
+@import "./pages/home";
+
+
+

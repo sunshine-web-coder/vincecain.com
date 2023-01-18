@@ -1,0 +1,33 @@
+.header{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    background-color: #F8F8F8;
+    @include media-breakpoint-down(lg){
+        background-color: $dark;
+    }
+
+    .navbar-nav{
+        --#{$prefix}nav-link-font-size: 18px;
+        --#{$prefix}nav-link-font-weight: 500;
+        --#{$prefix}navbar-hover-color: #{$black};
+    }
+
+    .navbar-brand img{
+        @include media-breakpoint-down(lg){
+            max-width: 3rem;
+            height: auto;   
+        }
+    }
+
+    .header-mobile{
+        @extend .px-3;
+
+        ul li a{
+            @extend .d-block, .py-2;
+        }
+    }
+
+}

@@ -1,0 +1,60 @@
+// CONTAINER
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1120px,
+  xxl: 1320px,
+);
+
+// DISPLAY FONT SIZES
+$display-font-sizes: (
+  1: 7rem,
+  2: 4.5rem,
+  3: 4rem,
+  4: 3.5rem,
+  5: 3rem,
+  6: 2.5rem
+);
+
+
+// Spacers List
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 2.5,
+  6: $spacer * 4,
+  7: $spacer * 5,
+  8: $spacer * 6,
+  9: $spacer * 7,
+  10: $spacer * 8,
+  11: $spacer * 9,
+  12: $spacer * 10,
+) !default;
+
+
+$border-color: $gray-200;
+
+// Font Family
+$ff-primary:  'Work Sans', sans-serif;
+$ff-secondary:  var(--all-round-semibold);
+$ff-tertiary:  var(--all-round-light);
+$ff-medium:  var(--all-round-medium);
+$ff-light:  var(--all-round-light2);
+
+// Box Shadow
+$box-shadow: 0px 14px 54px rgba(0,0,0,0.03);
+
+$headings-font-family:        $ff-secondary;
+$font-family-sans-serif: $ff-primary;
+
+// BODY
+$body-bg: $gray-200;
+$body-color: $black;
+
+// Link
+$link-decoration: none;

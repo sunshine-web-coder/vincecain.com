@@ -1,0 +1,36 @@
+// FONT SIZES
+$fs-xs:   8px;
+$fs-sm:   14px;
+$fs-md:   17px;
+$fs-lg:   20px;
+$fs-xl:   22px;
+$fs-2xl:  24px;
+$fs-3xl:  30px;
+$fs-4xl:  36px;
+$fs-5xl:  40px;
+$fs-6xl:  60px;
+$fs-7xl:  70px;
+
+// HEADING FONT SIZE
+$h1-font-size: $fs-5xl;
+$h2-font-size:  $fs-4xl;
+$h3-font-size:  $fs-2xl;
+$h4-font-size:  $fs-xl;
+$h5-font-size:  $fs-lg;
+$h6-font-size:  $fs-md;
+
+
+// SIZES LIST
+$sizes-list : (
+  "xs": $fs-xs,
+  "sm": $fs-sm,
+  "md": $fs-md,
+  "lg": $fs-lg,
+  "xl": $fs-xl,
+  "2xl": $fs-2xl,
+  "3xl": $fs-3xl,
+  "4xl": $fs-4xl,
+  "5xl": $fs-5xl,
+  "6xl": $fs-6xl,
+  "7xl": $fs-7xl,
+) !default;
