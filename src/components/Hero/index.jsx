@@ -3,6 +3,8 @@ import Banner from './images/banner.png';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from "framer-motion";
 import { Link } from 'react-router-dom';
+import { AddKeplr } from '../AddWalletComponent';
+import style from "./Hero.module.scss"
 
 const Hero = () => {
     
@@ -104,9 +106,12 @@ const Hero = () => {
                             <a href="https://t.me/vincechain">
                                <button type='button' className="btn btn-primary">Join Us</button> 
                             </a>
-                            <a href="https://pancakeswap.finance/swap?outputCurrency=0x5a9a8a4B11dF96c640c8aD65626033D03028a8cb">
+                            <a className={style.buyVinceBtnHero} href="https://pancakeswap.finance/swap?outputCurrency=0x5a9a8a4B11dF96c640c8aD65626033D03028a8cb">
                               <button type='button' className="btn btn-dark">Buy VCE</button>  
                             </a>                            
+                            <div className={style.addWallet_desktop}>
+                                <AddKeplr />
+                            </div>
                         </div>
                     </div>
                 </div>

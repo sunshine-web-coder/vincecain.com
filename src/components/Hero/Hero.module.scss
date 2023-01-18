@@ -1,0 +1,13 @@
+.addWallet_desktop {
+  display: none;
+
+  @media screen and (max-width: 991px) {
+    display: block;
+  }
+}
+
+.buyVinceBtnHero {
+  @media screen and (max-width: 991px) {
+    display: none;
+  }
+}
