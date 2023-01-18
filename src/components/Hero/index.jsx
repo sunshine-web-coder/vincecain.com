@@ -118,10 +118,10 @@ const Hero = () => {
             </div>
 
             <div className="row gy-3 gy-md-4 text-center text-lg-start">
-                <div className="col-lg-6">
+                {/* <div className="col-lg-6">
                     <h5 className="ff-primary fs-sm fs-sm-lg mb-2">Migration to our blockchain <br />mainnet:</h5>
                     <h2 className='ff-primary  fs-md fs-sm-3xl fw-bold'>Coming Soon</h2>
-                </div>
+                </div> */}
                 <div className="col-lg-6">
                     <h5 className="ff-primary fs-sm fs-sm-lg mb-2">VCE now live on Vince</h5>
                     <h2 className='ff-primary  fs-md fs-sm-3xl  fw-bold'>Freelancer Platform</h2>
