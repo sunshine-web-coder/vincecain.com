@@ -30,4 +30,22 @@
         }
     }
 
+    .addWallet_desktop{
+        margin-left: 20px;
+        button{
+            background-color: #FFCA00;
+            border: none;
+            color: #101828;
+        }
+    }
+    .addWallet_mobile{
+        width: 100%;
+        margin-top: 10px;
+        button{
+            background-color: #FFCA00;
+            border: none;
+            width: 100%;
+            color: #101828;
+        }
+    }
 }

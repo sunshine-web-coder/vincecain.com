@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from './image/logo.svg';
 import { Link  } from "react-router-dom";
-
+import { AddKeplr } from '../AddWalletComponent';
 import { motion, useScroll, useSpring } from "framer-motion";
 
 const Header = () => {
@@ -96,6 +96,9 @@ const Header = () => {
             <Nav>
                 <Nav.Link className='p-0 d-block' href="https://pancakeswap.finance/swap?outputCurrency=0x5a9a8a4B11dF96c640c8aD65626033D03028a8cb"><span className='btn btn-dark'>Buy VCE</span></Nav.Link>
             </Nav>
+            <div className='addWallet_desktop'>
+                <AddKeplr />
+            </div>
             </Navbar.Collapse>
         </div>
         </Navbar>
@@ -113,6 +116,9 @@ const Header = () => {
                 <a href="https://pancakeswap.finance/swap?outputCurrency=0x5a9a8a4B11dF96c640c8aD65626033D03028a8cb">
                     <span className='mt-4 btn btn-light w-100'>Buy VCE</span>
                 </a>
+                <div className='addWallet_mobile'>
+                    <AddKeplr />
+                </div>
             </ul>
             }
         </motion.div>
