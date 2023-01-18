@@ -116,9 +116,9 @@ const Header = () => {
                 <a href="https://pancakeswap.finance/swap?outputCurrency=0x5a9a8a4B11dF96c640c8aD65626033D03028a8cb">
                     <span className='mt-4 btn btn-light w-100'>Buy VCE</span>
                 </a>
-                <div className='addWallet_mobile'>
+                {/* <div className='addWallet_mobile'>
                     <AddKeplr />
-                </div>
+                </div> */}
             </ul>
             }
         </motion.div>
