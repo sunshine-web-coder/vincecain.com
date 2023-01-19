@@ -3,7 +3,7 @@ import Banner from './images/banner.png';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from "framer-motion";
 import { Link } from 'react-router-dom';
-import { AddKeplr } from '../AddWalletComponent';
+import AddWalletComponent from '../AddWalletComponent';
 import style from "./Hero.module.scss"
 
 const Hero = () => {
@@ -110,7 +110,7 @@ const Hero = () => {
                               <button type='button' className="btn btn-dark">Buy VCE</button>  
                             </a>                            
                             <div className={style.addWallet_desktop}>
-                                <AddKeplr />
+                                <AddWalletComponent />
                             </div>
                         </div>
                     </div>
