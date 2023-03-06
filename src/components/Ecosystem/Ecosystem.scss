@@ -1,0 +1,19 @@
+.buttons {
+  margin-top: 50px;
+  a {
+    border: 1px solid#FFCA00;
+    padding: 10px;
+    background-color: #ffca00;
+    color: black;
+
+    &:hover {
+      color: black;
+      background-color: #ffcc00e8;
+    }
+  }
+}
+.ecosystem-item__icon {
+  img {
+    width: 70px;
+  }
+}

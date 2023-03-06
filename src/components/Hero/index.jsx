@@ -80,15 +80,19 @@ const Hero = () => {
                 </div>
                 <div className="col-lg-6 col-xl-5">
                     <div className="hero-section__content text-center text-lg-start">
-                        <h2 className="mb-2 mb-md-4 ff-light lh-xs fs-4xl fs-lg-6xl fs-xxl-7xl">Decentralized Blockchain for 
+                        <h2 className="mb-2 mb-md-4 ff-light lh-xs fs-4xl fs-lg-6xl fs-xxl-7xl">Industry<span className="arial">-</span>Grade Blockchain For 
                             <div className="ff-secondary lh-md tilt-text">
                                 <TypeAnimation
                                     sequence={[
-                                        'Freelancing', // Types 'One'
+                                        'DeFi', // Types 'One'
                                         1000, // Waits 1s
-                                        'Gaming', // Deletes 'One' and types 'Two'
+                                        'Remote work', // Deletes 'One' and types 'Two'
                                         2000, // Waits 2s
-                                        'the web 3', // Types 'Three' without deleting 'Two'
+                                        'Gaming', // Types 'Three' without deleting 'Two'
+                                        3000, // Waits 3s
+                                        'web 3',
+                                        4000, // Waits 4s
+                                        'and More...',
                                         () => {
                                         console.log('Done typing!'); // Place optional callbacks anywhere in the array
                                         }
@@ -103,10 +107,10 @@ const Hero = () => {
                             <div className="fs-md-lg">Vince is a blockchain powering the Vince <br />Ecosystem and its products.</div>
                         </div>
                         <div className="d-flex gap-3 align-items-center justify-content-center justify-content-lg-start">
-                            <a href="https://t.me/vincechain">
-                               <button type='button' className="btn btn-primary">Join Us</button> 
+                            <a href="">
+                               <button type='button' className="btn btn-primary">Start Building</button> 
                             </a>
-                            <a className={style.buyVinceBtnHero} href="https://pancakeswap.finance/swap?outputCurrency=0x5a9a8a4B11dF96c640c8aD65626033D03028a8cb">
+                            <a className={style.buyVinceBtnHero} href="">
                               <button type='button' className="btn btn-dark">Buy VCE</button>  
                             </a>                            
                             <div className={style.addWallet_desktop}>
@@ -122,10 +126,10 @@ const Hero = () => {
                     <h5 className="ff-primary fs-sm fs-sm-lg mb-2">Migration to our blockchain <br />mainnet:</h5>
                     <h2 className='ff-primary  fs-md fs-sm-3xl fw-bold'>Coming Soon</h2>
                 </div> */}
-                <div className="col-lg-6">
+                {/* <div className="col-lg-6">
                     <h5 className="ff-primary fs-sm fs-sm-lg mb-2">VCE now live on Vince</h5>
                     <h2 className='ff-primary  fs-md fs-sm-3xl  fw-bold'>Freelancer Platform</h2>
-                </div>
+                </div> */}
             </div>
         </div>
     </motion.section>

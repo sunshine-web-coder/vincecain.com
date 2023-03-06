@@ -20,10 +20,10 @@ const Features = () => {
             thumb: Thumb2,
             title: 'Vince <span class="ff-secondary">Coin</span>',
             content: "",
-            button: {
-                label: "Buy VCE",
-                slug: 'https://pancakeswap.finance/swap?outputCurrency=0x5a9a8a4B11dF96c640c8aD65626033D03028a8cb'
-            },
+            // button: {
+            //     label: "Buy VCE",
+            //     slug: 'https://pancakeswap.finance/swap?outputCurrency=0x5a9a8a4B11dF96c640c8aD65626033D03028a8cb'
+            // },
             address: "0x5a9a8a4B11dF96c640c8aD65626033D03028a8cb"
         },
     ]
@@ -62,7 +62,7 @@ const Features = () => {
                             <div className="card-body p-4 pb-5 p-md-5 position-relative">
                                 {item.title && <h2 dangerouslySetInnerHTML={{__html: item.title}} className='ff-tertiary fs-3xl fs-xl-6xl mb-3'></h2>}
                                 {item.content && <div className='fs-xl-lg'>{item.content}</div>}
-                                {item.address && <div className='mt-4 features-item__address'><strong>Bsc address:</strong> {item.address}</div>}
+                                {/* {item.address && <div className='mt-4 features-item__address'><strong>Bsc address:</strong> {item.address}</div>} */}
                                 {item.button && <a href={item.button.slug}><button className='features-item__btn btn btn-primary'>{item.button.label}</button></a>}
                             </div>
                         </div>

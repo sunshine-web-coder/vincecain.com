@@ -34,9 +34,9 @@ const addWallet = async () => {
           // Staking coin information
           stakeCurrency: {
             // Coin denomination to be displayed to the user.
-            coinDenom: "VINCE",
+            coinDenom: "VCE",
             // Actual denom (i.e. uatom, uscrt) used by the blockchain.
-            coinMinimalDenom: "avince",
+            coinMinimalDenom: "avce",
             // # of decimal points to convert minimal denomination to user-facing denomination.
             coinDecimals: 18,
             // (Optional) Keplr can show the fiat value of the coin if a coingecko id is provided.
@@ -63,20 +63,20 @@ const addWallet = async () => {
           //   bech32PrefixConsPub: string;
           // }
           bech32Config: {
-            bech32PrefixAccAddr: "vince",
-            bech32PrefixAccPub: "vincepub",
-            bech32PrefixValAddr: "vincevaloper",
-            bech32PrefixValPub: "vincevaloperpub",
-            bech32PrefixConsAddr: "vincevalcons",
-            bech32PrefixConsPub: "vincevalconspub",
+            bech32PrefixAccAddr: "vce",
+            bech32PrefixAccPub: "vcepub",
+            bech32PrefixValAddr: "vcevaloper",
+            bech32PrefixValPub: "vcevaloperpub",
+            bech32PrefixConsAddr: "vcevalcons",
+            bech32PrefixConsPub: "vcevalconspub",
           },
           // List of all coin/tokens used in this chain.
           currencies: [
             {
               // Coin denomination to be displayed to the user.
-              coinDenom: "VINCE",
+              coinDenom: "VCE",
               // Actual denom (i.e. uatom, uscrt) used by the blockchain.
-              coinMinimalDenom: "avince",
+              coinMinimalDenom: "avce",
               // # of decimal points to convert minimal denomination to user-facing denomination.
               coinDecimals: 18,
               // (Optional) Keplr can show the fiat value of the coin if a coingecko id is provided.
@@ -88,9 +88,9 @@ const addWallet = async () => {
           feeCurrencies: [
             {
               // Coin denomination to be displayed to the user.
-              coinDenom: "VINCE",
+              coinDenom: "VCE",
               // Actual denom (i.e. uosmo, uscrt) used by the blockchain.
-              coinMinimalDenom: "avince",
+              coinMinimalDenom: "avce",
               // # of decimal points to convert minimal denomination to user-facing denomination.
               coinDecimals: 18,
               // (Optional) Keplr can show the fiat value of the coin if a coingecko id is provided.

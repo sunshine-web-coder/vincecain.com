@@ -1,0 +1,39 @@
+.cta-section-box {
+  .cta-content {
+    h2.ff-tertiary {
+      font-size: 40px !important;
+    }
+
+    p {
+      max-width: 350px;
+    }
+    .socialLinks-cta {
+      max-width: 350px;
+
+      a {
+        padding: 10px;
+        // padding-left: 0;
+        font-size: 35px;
+        margin: 5px;
+        color: #000000;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+        p, .socialLinks-cta{
+            max-width: 100%;
+        }
+        .socialLinks-cta{
+            margin-bottom: 30px;
+        }
+    }
+  }
+  .cta-img{
+    position: relative;
+    top: 60px;
+
+    @media screen and (max-width: 767px) {
+        top: 0;
+    }
+  }
+}

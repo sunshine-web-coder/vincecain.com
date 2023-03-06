@@ -1,0 +1,47 @@
+.footer_link {
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  .left {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 7px;
+    width: 300px;
+
+    img {
+      width: 50px;
+      margin-top: -7px;
+    }
+    h4 {
+      margin-top: 2px;
+    }
+  }
+  .right {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .fRLinks{
+        width: 200px;
+
+        ul{
+            li{
+                margin-top: 10px;
+                a{
+                    color: rgb(63, 63, 63);
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 823px) {
+        gap: 30px;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    flex-direction: column;
+  }
+}

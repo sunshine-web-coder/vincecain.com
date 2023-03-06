@@ -94,7 +94,7 @@ const Header = () => {
                 </Nav>
                 }
             <Nav>
-                <Nav.Link className='p-0 d-block' href="https://pancakeswap.finance/swap?outputCurrency=0x5a9a8a4B11dF96c640c8aD65626033D03028a8cb"><span className='btn btn-dark'>Buy VCE</span></Nav.Link>
+                <Nav.Link className='p-0 d-block' href=""><span className='btn btn-dark'>Buy VCE</span></Nav.Link>
             </Nav>
             <div className='addWallet_desktop'>
                 <AddWalletComponent />
@@ -113,7 +113,7 @@ const Header = () => {
                 {data.navmenu.map((item, i) =>(
                     <li key={i}><a href={item.slug} className="text-white fs-sm">{item.name}</a></li>
                 ))}
-                <a href="https://pancakeswap.finance/swap?outputCurrency=0x5a9a8a4B11dF96c640c8aD65626033D03028a8cb">
+                <a href="">
                     <span className='mt-4 btn btn-light w-100'>Buy VCE</span>
                 </a>
                 {/* <div className='addWallet_mobile'>

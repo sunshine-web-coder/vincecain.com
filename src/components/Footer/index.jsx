@@ -3,6 +3,9 @@ import { Container, Row } from 'react-bootstrap';
 import Nav from 'react-bootstrap/Nav';
 import { FaTwitter, FaTelegramPlane, FaInstagram, FaLinkedinIn, FaYoutube } from 'react-icons/fa';
 import { motion } from "framer-motion";
+import { Links } from './fMenu';
+import logo from "./assets/logo.svg"
+import "./Footer.scss";
 
 const Footer = () => {
     const data = {
@@ -132,7 +135,7 @@ const Footer = () => {
                 {/* CONTENT */}
                 <div className="row justify-content-center">
                     <div className="col-md-10 col-lg-8 col-xl-7">
-                        <h2 className='fs-4xl fs-lg-5xl mb-4'>Stay up to date</h2>
+                        <h2 className='fs-4xl fs-lg-5xl mb-4'>See What We Are Building Next<span className="arial">!</span></h2>
                         <form action="#" className='mb-5' onSubmit={handleSubmit}>
                             <div className="form-group d-flex gap-2 p-2 p-md-3 bg-white">
                                 <input type="text" className="form-control rounded-0 fs-sm-lg bg-transparent border-0 shadow-none"  placeholder='Enter your email'/> 
@@ -141,11 +144,11 @@ const Footer = () => {
                         </form>
 
                         {/* NAVBAR MENU */}
-                        {data && data.menu && <Nav className="justify-content-center gap-lg-4">
+                        {/* {data && data.menu && <Nav className="justify-content-center gap-lg-4">
                             {data.menu.map(( item, key) => (
                                 <Nav.Link key={key} href={item.slug} className="link-light fs-xl-lg fw-regular">{item.name}</Nav.Link>
                             ))}
-                        </Nav>}
+                        </Nav>} */}
                     </div>
                 </div>
 
@@ -153,13 +156,26 @@ const Footer = () => {
 
         </div>
         <div className="footer-navbar py-4">
-            <div className='container-lg justify-content-center'>
-                {/* NAVBAR MENU */}
-                {data && data.navbar && data.navbar.menu && <Nav className="justify-content-center gap-lg-4">
-                    {data.navbar.menu.map(( item, key) => (
-                        <Nav.Link key={key} href={item.slug} className="link-dark fs-xl-lg fw-regular">{item.name}</Nav.Link>
-                    ))}
-                </Nav>}
+            <div className='container-lg'>
+                <div className="footer_link">
+                    <div className="left">
+                        <img src={logo} alt="" />
+                        <h4>Vince Chain</h4>
+                    </div>
+                    <div className="right">
+                        {Links && Links.map((a, akey) => (
+                            <div key={akey} className='fRLinks'>
+                                {a.title && <h4 className='h4'>{a.title}</h4>}
+                                {a.list && <ul className="list-unstyled">
+                                    {a.list.map((b, bkey) =>(
+                                        <li key={bkey}><a href={`${b.slug}`}>{b.title}</a></li>
+                                    ))}
+                                </ul>
+                                }
+                            </div>
+                        ))}
+                    </div>
+                </div>
             </div>
         </div>
         <div className="footer-bottom bg-black text-white py-5">

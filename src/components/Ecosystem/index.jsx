@@ -1,33 +1,38 @@
 import React from 'react';
 import Icon_1 from './images/1.svg';
-import Icon_2 from './images/2.svg';
-import Icon_3 from './images/3.svg';
-import Icon_4 from './images/4.svg';
+import Icon_2 from './images/vincefreelancer.svg';
+import Icon_3 from './images/qroni.svg';
+import Icon_4 from './images/blith.svg';
+import "./Ecosystem.scss"
 
 const Ecosystem = () => {
     const data = [
         {
             name: "Vince Pay",
             icon: Icon_1,
-            content: "A fully decentralized payment service powered by smart contracts. Send and recieve payments instantly.",
+            content: "Decentralized payment service featuring crypto/fiat onramp powered by Vince Chain. Send and receive payments faster than the money services you know.",
+            button: "See More"
         },
         {
             name: "Vince Freelance",
             icon: Icon_2,
-            content: "Hire top-notch professionals to get your project done and work with other businesses to scale your interests.",
-            slug: "https://vincefreelancer.com"
+            content: "A Web3 freelance marketplace to buy and sell any in-demand skills. Work remotely and get paid securely and anonymously.",
+            slug: "https://vincefreelancer.com",
+            button: "Join Now"
         },
         {
             name: "Qroni Swap",
             icon: Icon_3,
-            content: "Qroniswap is a Defi protocol and ecosystem covering cross-chain crypto trading and swapping,NFT ticketing, staking, farming and fiat on-ramp payments.",
-            slug: "https://qroni.org/"
+            content: "A robust ecosystem featuring multi-chain crypto services, including DEX, liquidity staking, NFT ticketing & trading, onramp, and yield farming.",
+            slug: "https://qroni.org/",
+            button: "Explore Qroni Swap"
         },
         {
             name: "Blithe Wallet",
             icon: Icon_4,
-            content: "First non- custodial multi chain Wallet to offer  NFC Payment, stake and buy crypto assets..No KYC needed!",
-            slug: "https://www.blithewallet.com/"
+            content: "More than just a digital crypto wallet. Blithe Wallet offers non-custodial asset management services, plus staking, NFC payment, and crypto buy/sell services.",
+            slug: "https://www.blithewallet.com/",
+            button: "Use Wallet"
         },
     ]
   return (
@@ -52,6 +57,7 @@ const Ecosystem = () => {
                         <div className="ecosystem-item__content">
                             {item.name && <h3 className='fs-3xl'>{item.name}</h3>}
                             {item.content && <div className='fs-md'>{item.content}</div>}
+                            {item.content && <div className='fs-md buttons'><a href={item.slug}>{item.button}</a></div>}
                         </div>
                     </div>
                     </a>

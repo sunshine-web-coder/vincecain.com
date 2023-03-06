@@ -1,0 +1,52 @@
+.cta-section-box {
+  .cta-content {
+    h2.ff-tertiary {
+      font-size: 40px !important;
+    }
+    p {
+      max-width: 350px;
+    }
+   .sButton{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    @media screen and (max-width: 767px){
+      align-items: center;
+      justify-content: center;
+    }
+
+    a{
+      padding: 10px;
+      padding-left: 15px;
+      padding-right: 15px;
+      background-color: #FFCA00;
+      color: #000000;
+      font-weight: 500;
+    }
+   }
+
+    @media screen and (max-width: 767px) {
+        p, .socialLinks-cta{
+            max-width: 100%;
+        }
+        .socialLinks-cta{
+            margin-bottom: 30px;
+        }
+    }
+  }
+  .cta-img{
+    position: relative;
+    top: 60px;
+
+    @media screen and (max-width: 767px) {
+        top: 0;
+    }
+  }
+}
+
+.arial{
+  font-family: arial;
+}
