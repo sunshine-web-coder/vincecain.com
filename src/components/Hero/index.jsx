@@ -110,9 +110,9 @@ const Hero = () => {
                             <a href="">
                                <button type='button' className="btn btn-primary">Start Building</button> 
                             </a>
-                            <a className={style.buyVinceBtnHero} href="">
+                            {/* <a className={style.buyVinceBtnHero} href="">
                               <button type='button' className="btn btn-dark">Buy VCE</button>  
-                            </a>                            
+                            </a>                             */}
                             <div className={style.addWallet_desktop}>
                                 <AddWalletComponent />
                             </div>

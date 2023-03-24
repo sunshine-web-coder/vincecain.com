@@ -50,20 +50,20 @@ const Header = () => {
             },
             {
                 name: "Whitepaper",
-                slug: 'https://drive.google.com/file/d/1hUqaPoJpypjdnZlJBQDUG7vu7YzPdBqR/view?usp=sharing',
+                slug: 'https://vincechain.gitbook.io/vince-chain-documentation/',
             },
             {
                 name: "Audit",
                 slug: 'https://github.com/expelee-co/Smart-Contract-Audit/tree/main/Vince%20Audit%20Details',
             },
-            {
-                name: "Swap",
-                slug: 'https://www.vincechain.com/rubic-swap.html',
-            },
-            {
-                name: "Chart",
-                slug: 'https://poocoin.app/tokens/0x5a9a8a4B11dF96c640c8aD65626033D03028a8cb',
-            },
+            // {
+            //     name: "Swap",
+            //     slug: 'https://www.vincechain.com/rubic-swap.html',
+            // },
+            // {
+            //     name: "Chart",
+            //     slug: 'https://poocoin.app/tokens/0x5a9a8a4B11dF96c640c8aD65626033D03028a8cb',
+            // },
             {
                 name: "Contact",
                 slug: 'mailto:support@vincechain.com',
@@ -93,9 +93,9 @@ const Header = () => {
                     ))}
                 </Nav>
                 }
-            <Nav>
+            {/* <Nav>
                 <Nav.Link className='p-0 d-block' href=""><span className='btn btn-dark'>Buy VCE</span></Nav.Link>
-            </Nav>
+            </Nav> */}
             <div className='addWallet_desktop'>
                 <AddWalletComponent />
             </div>
@@ -113,9 +113,9 @@ const Header = () => {
                 {data.navmenu.map((item, i) =>(
                     <li key={i}><a href={item.slug} className="text-white fs-sm">{item.name}</a></li>
                 ))}
-                <a href="">
+                {/* <a href="">
                     <span className='mt-4 btn btn-light w-100'>Buy VCE</span>
-                </a>
+                </a> */}
                 {/* <div className='addWallet_mobile'>
                     <AddKeplr />
                 </div> */}
