@@ -37,8 +37,8 @@ const Cta = () => {
                             <div className="socialLinks-cta">
                                 <a target="_blank" href="https://twitter.com/vincechain"><FaTwitter /></a>
                                 <a target="_blank" href="https://t.me/vincechain"><FaTelegramPlane /></a>
-                                <a target="_blank" href=""><FaGithub /></a>
-                                <a target="_blank" href="https://youtube.com/channel/UCpRE6nyI3DVxIYz6uDBJwkw"><FaYoutube /></a>
+                                <a target="_blank" href="https://github.com/vince-chain"><FaGithub /></a>
+                                <a target="_blank" href="https://www.youtube.com/@vincechain5256"><FaYoutube /></a>
                             </div>
                         </div>
                     </div>

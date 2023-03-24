@@ -30,7 +30,7 @@ const LatestBlog = () => {
             },
             { 
                 thumb : Banner3,
-                title: "VINCECHAIN NETWORK IS NOW PRE INSTALLED ON BLITHE WALLET",
+                title: "VINCECHAIN NETWORK IS NOW PRE INSTALLED ON BLITHE",
                 date: "Jan 28, 2022",
                 slug: "https://medium.com/@vincechainthe-launch-of-vangold-freelance-platform-the-past-week-marked-an-important-milestone-in-the-838669712df8"          
             },

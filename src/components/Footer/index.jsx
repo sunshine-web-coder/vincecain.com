@@ -78,7 +78,7 @@ const Footer = () => {
             {
                 name: "Youtube",
                 icon: <FaYoutube />,
-                slug: "https://youtube.com/channel/UCpRE6nyI3DVxIYz6uDBJwkw",
+                slug: "https://www.youtube.com/@vincechain5256",
             },
         ]
     }

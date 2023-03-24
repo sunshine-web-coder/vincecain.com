@@ -3,15 +3,15 @@ export const Links = [
     title: "Developers",
     list: [
       {
-        slug: "",
+        slug: "https://vincescan.com",
         title: "Explorer",
       },
       {
-        slug: "staking",
+        slug: "mailto:support@vincechain.com",
         title: "Tech Support",
       },
       {
-        slug: "",
+        slug: "https://vincechain.gitbook.io/vince-chain-documentation/",
         title: "Dev Documentation",
       },
       {
@@ -32,12 +32,8 @@ export const Links = [
         title: "Ecosystem",
       },
       {
-        slug: "",
+        slug: "https://www.blithewallet.com/",
         title: "Blithe Wallet",
-      },
-      {
-        slug: "",
-        title: "Explorer",
       },
     ],
   },
@@ -57,32 +53,32 @@ export const Links = [
   {
     title: "Community",
     list: [
+      // {
+      //   slug: "",
+      //   title: "Blog",
+      // },
       {
-        slug: "",
-        title: "Blog",
-      },
-      {
-        slug: "",
+        slug: "https://t.me/vincechain",
         title: "Telegram",
       },
       {
-        slug: "",
+        slug: "https://github.com/vince-chain",
         title: "GitHub",
       },
       {
-        slug: "",
+        slug: "https://twitter.com/vincechain",
         title: "Twitter",
       },
       {
-        slug: "",
+        slug: "https://www.youtube.com/@vincechain5256",
         title: "YouTube",
       },
       {
-        slug: "",
+        slug: "https://instagram.com/vincechain?utm_medium=copy_link",
         title: "Instagram",
       },
       {
-        slug: "",
+        slug: "https://www.linkedin.com/company/vangold-finance",
         title: "LinkedIn",
       },
     ],
