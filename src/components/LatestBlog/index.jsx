@@ -18,19 +18,19 @@ const LatestBlog = () => {
         list: [
             { 
                 thumb : Banner1,
-                title: "VANGOLD SERVICES WILL ACCEPT VINCE TOKEN",
-                date: "March 15, 2022",
+                title: "VINCECHAIN BLOCKCHAIN HAS ACQUIRED ARTLUX",
+                // date: "March 15, 2022",
                 slug: "https://link.medium.com/8SmCWtoVhob"
             },
             { 
                 thumb : Banner2,
-                title: "Characteristics of a productive freelancer",
-                date: "Jan 28, 2022",
+                title: "NEW UPDATE: BLITHE WALLET V1.0.2 IS NOW AVAILABLE",
+                // date: "Jan 28, 2022",
                 slug: "https://medium.com/@vincechainhello-good-day-everyone-we-have-started-this-new-year-in-good-spirit-we-will-see-a-significant-dfdd576a6861"        
             },
             { 
                 thumb : Banner3,
-                title: "The launch of vince freelancer platform",
+                title: "VINCECHAIN NETWORK IS NOW PRE INSTALLED ON BLITHE WALLET",
                 date: "Jan 28, 2022",
                 slug: "https://medium.com/@vincechainthe-launch-of-vangold-freelance-platform-the-past-week-marked-an-important-milestone-in-the-838669712df8"          
             },

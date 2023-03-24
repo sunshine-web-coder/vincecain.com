@@ -36,7 +36,7 @@ const BuildFuture = () => {
                             <h2 className='ff-tertiary fs-4xl fs-sm-5xl fs-md-6xl mb-3'>Build in the <div className='ff-secondary'>Future</div></h2>
                             <p>Vince Chain is powering the decentralized future faster than you think.</p>
                             <div className="sButton">
-                                <a target="_blank" href="">Start Buildingsss</a>
+                                <a target="_blank" href="">Start Building</a>
                                 <a target="_blank" href="https://vincechain.gitbook.io/vince-chain-documentation/">Learn about Vince Chain</a>
                             </div>
                         </div>
