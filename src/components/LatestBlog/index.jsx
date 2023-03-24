@@ -2,6 +2,7 @@ import React from 'react';
 import Banner1 from './images/1.jpg';
 import Banner2 from './images/2.jpg';
 import Banner3 from './images/3.jpg';
+import Banner4 from './images/4.jpg';
 import AuthorThumb from './images/author.png';
 import Shape from './images/shape.svg';
 import { Navigation } from 'swiper';
@@ -26,13 +27,19 @@ const LatestBlog = () => {
                 thumb : Banner2,
                 title: "NEW UPDATE: BLITHE WALLET V1.0.2 IS NOW AVAILABLE",
                 // date: "Jan 28, 2022",
-                slug: "https://medium.com/@vincechainhello-good-day-everyone-we-have-started-this-new-year-in-good-spirit-we-will-see-a-significant-dfdd576a6861"        
+                slug: ""        
             },
             { 
                 thumb : Banner3,
                 title: "VINCECHAIN NETWORK IS NOW PRE INSTALLED ON BLITHE",
-                date: "Jan 28, 2022",
-                slug: "https://medium.com/@vincechainthe-launch-of-vangold-freelance-platform-the-past-week-marked-an-important-milestone-in-the-838669712df8"          
+                // date: "Jan 28, 2022",
+                slug: ""          
+            },
+            { 
+                thumb : Banner4,
+                title: "KEPLR WALLET NOW SUPPORT VINCECHAIN NETWORK",
+                // date: "Jan 28, 2022",
+                slug: ""          
             },
         ]
     }
